@@ -10,7 +10,7 @@ function computerPlay(){
             return "scissors"
         }
     }
-
+//comment 
 function playRound(playerSelection,computerSelection) {
         if (playerSelection.toLowerCase() === "rock" && computerSelection === "paper") {
             computerScore += 1;
